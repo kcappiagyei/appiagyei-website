@@ -291,6 +291,8 @@ span {
 .services-container{
     grid-template-columns: repeat(1,1fr);
 }
+.services-container ul{
+font-size: 50%    
 }
 .skills{
     background: var(--bg-color)
@@ -331,6 +333,12 @@ span {
     margin-left: 0.5rem;
 }
 @media screen and (max-width:600px){
+      .services-container{
+    grid-template-columns: repeat(1,1fr);
+}
+.services-container ul{
+font-size: 50%    
+}
     .skills .container{
         margin: 0;
         padding: 0;
